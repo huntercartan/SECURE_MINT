@@ -1,0 +1,120 @@
+
+body{
+    text-align: center;
+    margin: 0;
+    background: #02010a;
+}
+
+
+.main-logo img {
+    margin-top: -20px;
+    width: 400px;
+    height: 400px;
+    margin-bottom: -20px;
+}
+
+.hero h1 {
+    font-family: 'VT323', monospace;
+    font-size: 50px;
+    margin: -20px;
+    color: white;
+}
+
+.hero p {
+    color: white;
+    font-family: 'Major Mono Display', monospace;
+    padding: 20px;
+}
+
+#generate-btn {
+        text-decoration: none;
+        color: rgba(255, 255, 255, 0.8);
+        background: #0D00A4 ;
+        padding: 20px 40px;
+        border-radius: 4px;
+        font-weight: normal;
+        text-transform: uppercase;
+        font-family:'VT323', monospace;
+        transition: all 0.2s ease-in-out;
+        border:none;
+        font-size: 20px;
+        margin: 20px;
+
+      }
+
+#generate-btn:hover {
+    color: white;
+    background: #1803ff ;
+}
+
+#generate-btn:active {
+    color: white;
+    background: #1803ff ;
+    padding: 10px 30px;
+
+}
+
+.passwords {
+    color: white;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+
+}
+
+
+.password-block {
+    border: 1px solid white;
+    padding: 20px 40px;
+    background: gray;
+    font-family:'VT323', monospace;
+
+}
+
+
+
+
+@media (max-width: 600px) {
+    .passwords {
+      flex-direction: column;
+      align-items: center;
+      gap: 30px;
+    }
+  
+    .password-block {
+      width: 80%;
+      padding: 20px;
+    }
+  
+    #password1-el,
+    #password2-el {
+      font-size: 18px;
+      word-break: break-all;
+    }
+  
+    .copy-btn {
+      width: 100%;
+      font-size: 16px;
+      margin-top: 10px;
+    }
+  
+    #generate-btn {
+      width: 80%;
+      font-size: 18px;
+      padding: 16px;
+    }
+  
+    .hero h1 {
+      font-size: 36px;
+    }
+  
+    .main-logo img {
+      width: 250px;
+      height: 250px;
+      margin-bottom: 0;
+    }
+  }
+
+
+
